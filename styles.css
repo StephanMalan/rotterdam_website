@@ -54,8 +54,8 @@ ul {
 }
 
 #header {
-  width: 100vw;
-  height: 20vh;
+  width: 100dvw;
+  height: 20dvh;
   background-color: var(--black-transparent);
 }
 
@@ -63,12 +63,12 @@ ul {
   border-bottom: rgba(48, 48, 48, 0.7) 1px solid;
 }
 #header-logo > img {
-  height: 10vh;
-  max-width: 90vw;
+  height: 10dvh;
+  max-width: 90dvw;
 }
 
 #cover-image {
-  height: 80vh;
+  height: 80dvh;
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
     url("/images/rotterdam_cover.jpg");
   background-position: center;
