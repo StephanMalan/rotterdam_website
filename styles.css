@@ -1,0 +1,77 @@
+:root {
+  --black: #191919;
+  --black-transparent: rgba(25, 25, 25, 0.95);
+  --white: #f3f3f3;
+}
+
+body {
+  margin: 0;
+  background-color: var(--black);
+  color: var(--white);
+  font-family: Roboto Condensed, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+a {
+  text-decoration: none;
+  text-shadow: none;
+  font-style: normal;
+}
+
+h2,
+h1 {
+  margin: 0;
+}
+
+ul {
+  padding-inline-start: 2rem;
+  margin: 0;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+.w-100 {
+  width: 100%;
+}
+.h-100 {
+  height: 100%;
+}
+.sticky {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+.center {
+  justify-content: center;
+  align-items: center;
+}
+
+#header {
+  width: 100vw;
+  height: 20vh;
+  background-color: var(--black-transparent);
+}
+
+#header-logo {
+  border-bottom: rgba(48, 48, 48, 0.7) 1px solid;
+}
+#header-logo > img {
+  height: 10vh;
+  max-width: 90vw;
+}
+
+#cover-image {
+  height: 80vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("/images/rotterdam_cover.jpg");
+  background-position: center;
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+}
